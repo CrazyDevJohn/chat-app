@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+.scrollBar {
+  scrollbar-width: 0;
+  scrollbar-color: #0000;
+}
