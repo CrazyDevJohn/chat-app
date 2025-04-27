@@ -32,6 +32,10 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
+app.get('/', (req,res)=>{
+return res.send('hello')
+})
+
 server.listen(PORT, () => {
   console.log("Server Started! PORT: " + PORT);
 
